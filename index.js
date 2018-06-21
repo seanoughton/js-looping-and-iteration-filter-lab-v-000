@@ -6,5 +6,6 @@ function findMatching(drivers, string) {
 }
 
 function fuzzyMatch(drivers,string){
-
+  //returns a driver if beginning provided letters match
+  
 }
