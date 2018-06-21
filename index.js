@@ -9,7 +9,7 @@ function fuzzyMatch(drivers,string){
   //returns a driver if beginning provided letters match
   return drivers.filter(
     function (name){
-      return (name[0] === string[0]) && name[1] === string[1]
+      return (name[0] === string[0]) && (name[1] === string[1])
     }
   );
 }
