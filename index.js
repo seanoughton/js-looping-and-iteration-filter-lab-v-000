@@ -20,5 +20,4 @@ function matchName(drivers,string){
       return object["name"] === string
     }
   );
-
 }
